@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.big{
+    display: flex;
+    justify-content: center;
+}
+.bigPage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid;
+    width: 60%;
+}
+.box1{
+    width: 95%;
+    height: 100px;
+    border: 2px solid;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.log{
+    font-size: 20px;
+    margin: 20px;
+    font-family: 'Courgette', cursive;
+}
+.box2{
+    width: 95%;
+    height: 500px;
+    border: 2px solid;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box3{
+    width: 95%;
+    height: 100px;
+    border: 2px solid;
+    margin: 20px;
+}
+.box2Small-1{
+    width: 95%;
+    height: 130px;
+    border: 2px solid;
+    margin: 15px;
+    display: flex;
+}
+.box2Small-2{
+    width: 95%;
+    height: 320px;
+    border: 2px solid;
+    overflow: auto; 
+}
+.box2Small-2>div{
+    width: 90%;
+    height: 50px;
+    border: 2px solid;
+    margin: 20px;
+    
+}
+.round{
+    width: 90px;
+    height: 90px;
+    border: 2px solid;
+    border-radius: 50%;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+.nameSurname{
+    width: 395px;
+}
+.name{
+    font-size: 27px;
+    font-family: 'Satisfy', cursive;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.submit{
+    
+    display: flex;
+    align-items: center;
+}
+.creat{
+    width: 200px;
+    height: 60px;
+    box-shadow: 10px 10px;  
+}
+.creat>span{
+    font-size: 20px;
+}
